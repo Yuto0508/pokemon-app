@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import './Card.css';
 
 export const Card = ({ pokemon }) => {
-    // ポケモンの名前を管理するステート
+    // ポケモンの名前を管理するステートです
     const [pokemonName, setPokemonName] = useState([]);
 
-    // ポケモンのタイプURLを管理するステート
+	// ポケモンのタイプURLを管理するステートです
     const [pokemonTypeURLs, setPokemonTypeURLs] = useState([]);
 
-    // ポケモンのタイプを管理するステート
+    // ポケモンのタイプを管理するステートです
     const [pokemonType, setPokemonType] = useState([]);
 
     // ポケモンの名前の詳細URLを取得
