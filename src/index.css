@@ -1,13 +1,16 @@
+/* body要素のスタイル */
 body {
-  margin: 0;
+  margin: 0; /* マージンをなしにする */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; /* フォントファミリーを設定 */
+  -webkit-font-smoothing: antialiased; /* フォントのアンチエイリアスを有効にする（Webkitベースのブラウザ） */
+  -moz-osx-font-smoothing: grayscale; /* フォントのアンチエイリアスを有効にする（Firefox） */
+  background-color: #dae9f9; /* 背景色を設定 */
 }
 
+/* code要素のスタイル */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace; /* フォントファミリーを設定 */
 }

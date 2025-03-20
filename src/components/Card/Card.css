@@ -1,0 +1,20 @@
+/* カード全体のスタイル */
+.card {
+    width: 290px; /* カードの幅 */
+    box-shadow: 2px 8px 21px -2px #777777; /* カードの影 */
+    border-radius: 10px; /* カードの角を丸くする */
+    background-color: white; /* カードの背景色 */
+}
+
+/* カード内のポケモン名のスタイル */
+.cardName {
+    padding: 0; /* パディングをなしにする */
+    font-size: 24px; /* フォントサイズを24pxに設定 */
+    margin-bottom: 10px; /* 下部のマージンを10pxに設定 */
+    margin-top: 0; /* 上部のマージンをなしにする */
+}
+
+/* カード内の情報部分のスタイル */
+.cardInfo {
+    text-align: center; /* テキストを中央揃えにする */
+}
