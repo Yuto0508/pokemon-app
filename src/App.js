@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { getAllPokemon, getPokemon } from "./utils/pokemon.js";
 import Card from './components/Card/Card.js';
