@@ -49,7 +49,7 @@ function App() {
   };
 
   // デバッグ用にポケモンデータをコンソールに出力
-//   console.log(pokemonData);
+  console.log(pokemonData);
 
 	const handleNextPage = async() =>{
 		setLoading(true);
