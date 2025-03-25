@@ -26,8 +26,9 @@ function App() {
       loadPokemon(res.results);
 	//   console.log(res.next);
 	  setNextURL(res.next);
-      // ローディング状態を解除
-	  setPrevURL(res.previous); //null
+		//nullの時は前のページがないので、nullの時は何もしない
+	  setPrevURL(res.previous);
+		// ローディング状態を解除
       setLoading(false);
     };
     fetchPokemonData();
