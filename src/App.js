@@ -26,7 +26,7 @@ function App() {
       loadPokemon(res.results);
 	//   console.log(res.next);
 	  setNextURL(res.next);
-		//nullの時は前のページがないので、nullの時は何もしない
+		//nullの時は前のページがないので何もしない
 	  setPrevURL(res.previous);
 		// ローディング状態を解除
       setLoading(false);
